@@ -1,5 +1,5 @@
-def main():
-    print("Autoflow Provisioning Framework Started")
+from core.orchestrator import Orchestrator
 
 if __name__ == "__main__":
-    main()
+    orch = Orchestrator()
+    orch.run()
