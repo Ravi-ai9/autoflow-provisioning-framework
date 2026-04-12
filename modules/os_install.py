@@ -1,2 +1,4 @@
-def run():
-    print("Installing OS...")
+class OSInstall:
+
+    def run(self):
+        print("Installing Operating System...")

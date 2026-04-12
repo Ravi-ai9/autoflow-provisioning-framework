@@ -1,2 +1,4 @@
-def run():
-    print("Configuring BIOS...")
+class BIOS:
+
+    def run(self):
+        print("Applying BIOS configuration...")
